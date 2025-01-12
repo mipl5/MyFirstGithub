@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initializeViews() {
-        etGetNumber = (TextInputEditText)findViewById(R.id.etGetNumber);
-        btnAddNumber = (MaterialButton)findViewById(R.id.btnAddNumber);
-        btnRemoveNumber = (MaterialButton)findViewById(R.id.btnRemoveNumber);
-        btnShowResult = (MaterialButton)findViewById(R.id.btnShowResult);
+        etGetNumber =       (TextInputEditText) findViewById(R.id.etGetNumber);
+        btnAddNumber =      (MaterialButton)    findViewById(R.id.btnAddNumber);
+        btnRemoveNumber =   (MaterialButton)    findViewById(R.id.btnRemoveNumber);
+        btnShowResult =     (MaterialButton)    findViewById(R.id.btnShowResult);
         initializeOnClickListeners();
     }
 
